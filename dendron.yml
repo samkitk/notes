@@ -81,6 +81,7 @@ preview:
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
+    siteUrl: https://notes.samkitk.com
     enableFMTitle: true
     enableNoteTitleForLink: true
     enablePrettyRefs: true
