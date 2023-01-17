@@ -1,0 +1,29 @@
+<h1 id="rclone">Rclone<a aria-hidden="true" class="anchor-heading icon-link" href="#rclone"></a></h1>
+<h1 id="initialising">Initialising<a aria-hidden="true" class="anchor-heading icon-link" href="#initialising"></a></h1>
+<p><code>sudo apt-get install curl</code>  </p>
+<p><code>curl https://rclone.org/install.sh | sudo bash</code></p>
+<h2 id="backing-up-to-google-drive">Backing up to Google Drive<a aria-hidden="true" class="anchor-heading icon-link" href="#backing-up-to-google-drive"></a></h2>
+<h3 id="start-rclone">Start RClone<a aria-hidden="true" class="anchor-heading icon-link" href="#start-rclone"></a></h3>
+<p><code>rclone config</code></p>
+<h3 id="make-a-new-remote">Make a new remote<a aria-hidden="true" class="anchor-heading icon-link" href="#make-a-new-remote"></a></h3>
+<p><code>n</code></p>
+<h3 id="name-it-something-you-can-rememberyoull-use-this-in-near-future">Name it something you can remember(you'll use this in near future)<a aria-hidden="true" class="anchor-heading icon-link" href="#name-it-something-you-can-rememberyoull-use-this-in-near-future"></a></h3>
+<p><code>gdrive</code></p>
+<h3 id="choose-google-drive">Choose Google Drive<a aria-hidden="true" class="anchor-heading icon-link" href="#choose-google-drive"></a></h3>
+<p><code>15</code> (prolly)</p>
+<h2 id="google-setup">Google Setup<a aria-hidden="true" class="anchor-heading icon-link" href="#google-setup"></a></h2>
+<h3 id="google-application-client-id---rclone-docs">Google Application Client ID - <a href="https://rclone.org/drive/#making-your-own-client-id">RClone Docs</a><a aria-hidden="true" class="anchor-heading icon-link" href="#google-application-client-id---rclone-docs"></a></h3>
+<h3 id="google-application-secret">Google Application Secret<a aria-hidden="true" class="anchor-heading icon-link" href="#google-application-secret"></a></h3>
+<h3 id="scope-of-access">Scope of Access<a aria-hidden="true" class="anchor-heading icon-link" href="#scope-of-access"></a></h3>
+<p><code>1</code></p>
+<h3 id="folder-id">Folder ID<a aria-hidden="true" class="anchor-heading icon-link" href="#folder-id"></a></h3>
+<p><a href="https://drive.google.com/drive/u/3/folders/XXXX">https://drive.google.com/drive/u/3/folders/XXXX</a> </p>
+<p>Folder ID is <strong>XXXX</strong></p>
+<h3 id="service-account">Service Account<a aria-hidden="true" class="anchor-heading icon-link" href="#service-account"></a></h3>
+<p><code>press enter - blank</code></p>
+<p>(If you're on a headless machine, in auto config Choose NO)</p>
+<h2 id="command-to-execute-after-the-remote-setup-is-done">Command to Execute after the Remote Setup is done<a aria-hidden="true" class="anchor-heading icon-link" href="#command-to-execute-after-the-remote-setup-is-done"></a></h2>
+<p>DRY RUN
+<code>rclone copy "/srv/airtime/stor/imported/1" "gdrive-server:FolderNameYouChoose" --dry-run --progress -V --transfers 40 --checkers 10 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10</code></p>
+<p>Final
+<code>rclone copy "/srv/airtime/stor/imported/1" "gdrive-server:MainBackup" --progress --verbose --transfers 40 --checkers 10 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10</code></p>

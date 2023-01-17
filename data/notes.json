@@ -1,0 +1,661 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673951681730,
+      "created": 1673951681730,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "5kh4424qxkbwy2klmssy8wa": {
+      "id": "5kh4424qxkbwy2klmssy8wa",
+      "title": "Root",
+      "desc": "",
+      "updated": 1673946640132,
+      "created": 1673946297564,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "15885d88ce58fc56575698bf85e2ed51",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "root",
+            "id": "5kh4424qxkbwy2klmssy8wa",
+            "vaultName": "NotesV2"
+          },
+          "value": "now.2021.june",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 365
+            },
+            "end": {
+              "line": 10,
+              "column": 19,
+              "offset": 383
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "now.2021.june"
+          }
+        }
+      ],
+      "anchors": {
+        "-currently-working-on": {
+          "type": "header",
+          "text": "🧠 Currently working on",
+          "value": "-currently-working-on",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "newsletter": {
+          "type": "header",
+          "text": "Newsletter",
+          "value": "newsletter",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "online-presence": {
+          "type": "header",
+          "text": "Online Presence",
+          "value": "online-presence",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "rojsiess8yycfbhxyxq5x7m",
+        "1ed4d28we4pqzaeqmncck0q",
+        "pqj2jdvkko7gt118ffzw6t4",
+        "o9gn4zhj5e06vrdfmzsl08w"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "o9gn4zhj5e06vrdfmzsl08w": {
+      "id": "o9gn4zhj5e06vrdfmzsl08w",
+      "title": "Now",
+      "desc": "",
+      "updated": 1673946665003,
+      "created": 1673946661483,
+      "custom": {},
+      "fname": "now",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "3fd611335030e3bd93973707e1f2c778",
+      "links": [],
+      "anchors": {
+        "purpose-of-a-now-page-and-why-is-it-useful": {
+          "type": "header",
+          "text": "Purpose of a 'Now' page and why is it useful?",
+          "value": "purpose-of-a-now-page-and-why-is-it-useful",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "5kh4424qxkbwy2klmssy8wa",
+      "data": {}
+    },
+    "pqj2jdvkko7gt118ffzw6t4": {
+      "id": "pqj2jdvkko7gt118ffzw6t4",
+      "title": "Cookbook",
+      "desc": "",
+      "updated": 1673946747304,
+      "created": 1673946713734,
+      "custom": {},
+      "fname": "cookbook",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "2f5f04e08c1cbc32ceaa26430e39184b",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "vsbj4jtsusfbt5lymovf4ti",
+        "libroup36elbsq0imi1jql2",
+        "2unblhe3rt0io47t8tzfrau"
+      ],
+      "parent": "5kh4424qxkbwy2klmssy8wa",
+      "data": {}
+    },
+    "2unblhe3rt0io47t8tzfrau": {
+      "id": "2unblhe3rt0io47t8tzfrau",
+      "title": "Tools",
+      "desc": "",
+      "updated": 1673946866201,
+      "created": 1673946862444,
+      "custom": {},
+      "fname": "cookbook.tools",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "8f8f2081bb664d9b314e34d34aa62f0f",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "pqj2jdvkko7gt118ffzw6t4",
+      "data": {}
+    },
+    "libroup36elbsq0imi1jql2": {
+      "id": "libroup36elbsq0imi1jql2",
+      "title": "Dotfiles",
+      "desc": "",
+      "updated": 1673946740010,
+      "created": 1673946729933,
+      "custom": {},
+      "fname": "cookbook.dotfiles",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "0146a1d9ee3bb16b7537840304d0b551",
+      "links": [],
+      "anchors": {
+        "setting-up-dotfiles": {
+          "type": "header",
+          "text": "Setting Up Dotfiles",
+          "value": "setting-up-dotfiles",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "pqj2jdvkko7gt118ffzw6t4",
+      "data": {}
+    },
+    "vsbj4jtsusfbt5lymovf4ti": {
+      "id": "vsbj4jtsusfbt5lymovf4ti",
+      "title": "Cheatsheet",
+      "desc": "",
+      "updated": 1673946802079,
+      "created": 1673946782356,
+      "custom": {},
+      "fname": "cookbook.cheatsheet",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "4290af36e3976d3c37fe26a452e7e09c",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "q7fsg8qiq6rovg1z8176pg1",
+        "okp17e3s1oox7f24s80cd1g"
+      ],
+      "parent": "pqj2jdvkko7gt118ffzw6t4",
+      "data": {}
+    },
+    "okp17e3s1oox7f24s80cd1g": {
+      "id": "okp17e3s1oox7f24s80cd1g",
+      "title": "Youtube Dl",
+      "desc": "",
+      "updated": 1673946788186,
+      "created": 1673946782340,
+      "custom": {},
+      "fname": "cookbook.cheatsheet.youtube-dl",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "b8aaf687a6fc94277d46422dc632e8a5",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "vsbj4jtsusfbt5lymovf4ti",
+      "data": {}
+    },
+    "q7fsg8qiq6rovg1z8176pg1": {
+      "id": "q7fsg8qiq6rovg1z8176pg1",
+      "title": "Rclone",
+      "desc": "",
+      "updated": 1673946900151,
+      "created": 1673946897658,
+      "custom": {},
+      "fname": "cookbook.cheatsheet.rclone",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "e2193b7785fcd9a09771ba21b668c372",
+      "links": [],
+      "anchors": {
+        "initialising": {
+          "type": "header",
+          "text": "Initialising",
+          "value": "initialising",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "backing-up-to-google-drive": {
+          "type": "header",
+          "text": "Backing up to Google Drive",
+          "value": "backing-up-to-google-drive",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "start-rclone": {
+          "type": "header",
+          "text": "Start RClone",
+          "value": "start-rclone",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "make-a-new-remote": {
+          "type": "header",
+          "text": "Make a new remote",
+          "value": "make-a-new-remote",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "name-it-something-you-can-rememberyoull-use-this-in-near-future": {
+          "type": "header",
+          "text": "Name it something you can remember(you'll use this in near future)",
+          "value": "name-it-something-you-can-rememberyoull-use-this-in-near-future",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "choose-google-drive": {
+          "type": "header",
+          "text": "Choose Google Drive",
+          "value": "choose-google-drive",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "google-setup": {
+          "type": "header",
+          "text": "Google Setup",
+          "value": "google-setup",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "google-application-client-id---rclone-docs": {
+          "type": "header",
+          "text": "Google Application Client ID - RClone Docs",
+          "value": "google-application-client-id---rclone-docs",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "google-application-secret": {
+          "type": "header",
+          "text": "Google Application Secret",
+          "value": "google-application-secret",
+          "line": 37,
+          "column": 0,
+          "depth": 3
+        },
+        "scope-of-access": {
+          "type": "header",
+          "text": "Scope of Access",
+          "value": "scope-of-access",
+          "line": 39,
+          "column": 0,
+          "depth": 3
+        },
+        "folder-id": {
+          "type": "header",
+          "text": "Folder ID",
+          "value": "folder-id",
+          "line": 43,
+          "column": 0,
+          "depth": 3
+        },
+        "service-account": {
+          "type": "header",
+          "text": "Service Account",
+          "value": "service-account",
+          "line": 49,
+          "column": 0,
+          "depth": 3
+        },
+        "command-to-execute-after-the-remote-setup-is-done": {
+          "type": "header",
+          "text": "Command to Execute after the Remote Setup is done",
+          "value": "command-to-execute-after-the-remote-setup-is-done",
+          "line": 55,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "vsbj4jtsusfbt5lymovf4ti",
+      "data": {}
+    },
+    "1ed4d28we4pqzaeqmncck0q": {
+      "id": "1ed4d28we4pqzaeqmncck0q",
+      "title": "Bookmarks",
+      "desc": "",
+      "updated": 1673946950794,
+      "created": 1673946932143,
+      "custom": {},
+      "fname": "bookmarks",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "06a5d53338a7508a2e5388f4af47dda6",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "5kh4424qxkbwy2klmssy8wa",
+      "data": {}
+    },
+    "rojsiess8yycfbhxyxq5x7m": {
+      "id": "rojsiess8yycfbhxyxq5x7m",
+      "title": "About",
+      "desc": "",
+      "updated": 1673946537662,
+      "created": 1673946537662,
+      "custom": {},
+      "fname": "about",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "87978b0e05e67d46c697cb965f8821dd",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "5kchfk7vyagql1iwljlya0p"
+      ],
+      "parent": "5kh4424qxkbwy2klmssy8wa",
+      "data": {}
+    },
+    "5kchfk7vyagql1iwljlya0p": {
+      "id": "5kchfk7vyagql1iwljlya0p",
+      "title": "Me",
+      "desc": "",
+      "updated": 1673946562202,
+      "created": 1673946537631,
+      "custom": {},
+      "fname": "about.me",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "a7695b99ad62a111f599e148cc05512a",
+      "links": [],
+      "anchors": {
+        "what-do-i-do": {
+          "type": "header",
+          "text": "What do I do?",
+          "value": "what-do-i-do",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "what-have-i-done": {
+          "type": "header",
+          "text": "What have I done?",
+          "value": "what-have-i-done",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "primary-interests": {
+          "type": "header",
+          "text": "Primary Interests",
+          "value": "primary-interests",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "other-interests": {
+          "type": "header",
+          "text": "Other Interests",
+          "value": "other-interests",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "what-am-i-upto": {
+          "type": "header",
+          "text": "What am I upto?",
+          "value": "what-am-i-upto",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "rojsiess8yycfbhxyxq5x7m",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "5kh4424qxkbwy2klmssy8wa",
+      "title": "Root",
+      "desc": "",
+      "updated": 1673946640132,
+      "created": 1673946297564,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "NotesV2"
+      },
+      "contentHash": "15885d88ce58fc56575698bf85e2ed51",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "root",
+            "id": "5kh4424qxkbwy2klmssy8wa",
+            "vaultName": "NotesV2"
+          },
+          "value": "now.2021.june",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 365
+            },
+            "end": {
+              "line": 10,
+              "column": 19,
+              "offset": 383
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "now.2021.june"
+          }
+        }
+      ],
+      "anchors": {
+        "-currently-working-on": {
+          "type": "header",
+          "text": "🧠 Currently working on",
+          "value": "-currently-working-on",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "newsletter": {
+          "type": "header",
+          "text": "Newsletter",
+          "value": "newsletter",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "online-presence": {
+          "type": "header",
+          "text": "Online Presence",
+          "value": "online-presence",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "rojsiess8yycfbhxyxq5x7m",
+        "1ed4d28we4pqzaeqmncck0q",
+        "pqj2jdvkko7gt118ffzw6t4",
+        "o9gn4zhj5e06vrdfmzsl08w"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nWelcome to my [Digital Garden](https://joelhooks.com/digital-garden \"What is a Digital Garden?\")!\n\nI am Samkit, a fourth year undergrad majoring in Computer Science and Engineering at Ahmedabad, India.\n\nIn the coming future, I wish to look at this space as my second brain which will help me find patterns in the multitude of chaos (:\n\n## 🧠 Currently working on\n\n![[now.2021.june]]\n\n## Newsletter\n\n<form\n  action=\"https://buttondown.email/api/emails/embed-subscribe/samkit\"\n  method=\"post\"\n  target=\"popupwindow\"\n  onsubmit=\"window.open('https://buttondown.email/samkit', 'popupwindow')\"\n  class=\"embeddable-buttondown-form\">\n  <label for=\"bd-email\">Enter your email</label>\n  <input type=\"email\" name=\"email\" id=\"bd-email\" />\n  <input type=\"hidden\" value=\"1\" name=\"embed\" />\n  <input type=\"submit\" value=\"Subscribe\" />\n</form>\n\n## Online Presence\n\n[GitHub](https://github.com/samkitk) 👨‍💻  \n[LinkedIn](https://linkedin.com/in/samkitk) 🤵  \n"
+    }
+  ],
+  "noteIndex": {
+    "id": "5kh4424qxkbwy2klmssy8wa",
+    "title": "Root",
+    "desc": "",
+    "updated": 1673946640132,
+    "created": 1673946297564,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "NotesV2"
+    },
+    "contentHash": "15885d88ce58fc56575698bf85e2ed51",
+    "links": [
+      {
+        "type": "ref",
+        "from": {
+          "fname": "root",
+          "id": "5kh4424qxkbwy2klmssy8wa",
+          "vaultName": "NotesV2"
+        },
+        "value": "now.2021.june",
+        "position": {
+          "start": {
+            "line": 10,
+            "column": 1,
+            "offset": 365
+          },
+          "end": {
+            "line": 10,
+            "column": 19,
+            "offset": 383
+          },
+          "indent": []
+        },
+        "xvault": false,
+        "to": {
+          "fname": "now.2021.june"
+        }
+      }
+    ],
+    "anchors": {
+      "-currently-working-on": {
+        "type": "header",
+        "text": "🧠 Currently working on",
+        "value": "-currently-working-on",
+        "line": 14,
+        "column": 0,
+        "depth": 2
+      },
+      "newsletter": {
+        "type": "header",
+        "text": "Newsletter",
+        "value": "newsletter",
+        "line": 18,
+        "column": 0,
+        "depth": 2
+      },
+      "online-presence": {
+        "type": "header",
+        "text": "Online Presence",
+        "value": "online-presence",
+        "line": 32,
+        "column": 0,
+        "depth": 2
+      }
+    },
+    "children": [
+      "rojsiess8yycfbhxyxq5x7m",
+      "1ed4d28we4pqzaeqmncck0q",
+      "pqj2jdvkko7gt118ffzw6t4",
+      "o9gn4zhj5e06vrdfmzsl08w"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nWelcome to my [Digital Garden](https://joelhooks.com/digital-garden \"What is a Digital Garden?\")!\n\nI am Samkit, a fourth year undergrad majoring in Computer Science and Engineering at Ahmedabad, India.\n\nIn the coming future, I wish to look at this space as my second brain which will help me find patterns in the multitude of chaos (:\n\n## 🧠 Currently working on\n\n![[now.2021.june]]\n\n## Newsletter\n\n<form\n  action=\"https://buttondown.email/api/emails/embed-subscribe/samkit\"\n  method=\"post\"\n  target=\"popupwindow\"\n  onsubmit=\"window.open('https://buttondown.email/samkit', 'popupwindow')\"\n  class=\"embeddable-buttondown-form\">\n  <label for=\"bd-email\">Enter your email</label>\n  <input type=\"email\" name=\"email\" id=\"bd-email\" />\n  <input type=\"hidden\" value=\"1\" name=\"embed\" />\n  <input type=\"submit\" value=\"Subscribe\" />\n</form>\n\n## Online Presence\n\n[GitHub](https://github.com/samkitk) 👨‍💻  \n[LinkedIn](https://linkedin.com/in/samkitk) 🤵  \n"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "NotesV2"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "roots": [
+    {
+      "key": "rojsiess8yycfbhxyxq5x7m",
+      "title": "About",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "NotesV2",
+      "children": [
+        {
+          "key": "5kchfk7vyagql1iwljlya0p",
+          "title": "Me",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "NotesV2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "1ed4d28we4pqzaeqmncck0q",
+      "title": "Bookmarks",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "NotesV2",
+      "children": []
+    },
+    {
+      "key": "pqj2jdvkko7gt118ffzw6t4",
+      "title": "Cookbook",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "NotesV2",
+      "children": [
+        {
+          "key": "vsbj4jtsusfbt5lymovf4ti",
+          "title": "Cheatsheet",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "NotesV2",
+          "children": [
+            {
+              "key": "q7fsg8qiq6rovg1z8176pg1",
+              "title": "Rclone",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "NotesV2",
+              "children": []
+            },
+            {
+              "key": "okp17e3s1oox7f24s80cd1g",
+              "title": "Youtube Dl",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "NotesV2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "libroup36elbsq0imi1jql2",
+          "title": "Dotfiles",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "NotesV2",
+          "children": []
+        },
+        {
+          "key": "2unblhe3rt0io47t8tzfrau",
+          "title": "Tools",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "NotesV2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "o9gn4zhj5e06vrdfmzsl08w",
+      "title": "Now",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "NotesV2",
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "rojsiess8yycfbhxyxq5x7m": null,
+    "5kchfk7vyagql1iwljlya0p": "rojsiess8yycfbhxyxq5x7m",
+    "1ed4d28we4pqzaeqmncck0q": null,
+    "pqj2jdvkko7gt118ffzw6t4": null,
+    "vsbj4jtsusfbt5lymovf4ti": "pqj2jdvkko7gt118ffzw6t4",
+    "q7fsg8qiq6rovg1z8176pg1": "vsbj4jtsusfbt5lymovf4ti",
+    "okp17e3s1oox7f24s80cd1g": "vsbj4jtsusfbt5lymovf4ti",
+    "libroup36elbsq0imi1jql2": "pqj2jdvkko7gt118ffzw6t4",
+    "2unblhe3rt0io47t8tzfrau": "pqj2jdvkko7gt118ffzw6t4",
+    "o9gn4zhj5e06vrdfmzsl08w": null
+  },
+  "notesLabelById": {
+    "rojsiess8yycfbhxyxq5x7m": "About",
+    "5kchfk7vyagql1iwljlya0p": "Me",
+    "1ed4d28we4pqzaeqmncck0q": "Bookmarks",
+    "pqj2jdvkko7gt118ffzw6t4": "Cookbook",
+    "vsbj4jtsusfbt5lymovf4ti": "Cheatsheet",
+    "q7fsg8qiq6rovg1z8176pg1": "Rclone",
+    "okp17e3s1oox7f24s80cd1g": "Youtube Dl",
+    "libroup36elbsq0imi1jql2": "Dotfiles",
+    "2unblhe3rt0io47t8tzfrau": "Tools",
+    "o9gn4zhj5e06vrdfmzsl08w": "Now"
+  }
+}
