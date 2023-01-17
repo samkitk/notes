@@ -101,6 +101,7 @@ publishing:
     enableSiteLastModified: true
     enableFrontmatterTags: true
     enableHashesForFMTags: false
+    theme: dark
     enableRandomlyColoredTags: true
     enableTaskNotes: true
     enablePrettyLinks: true
